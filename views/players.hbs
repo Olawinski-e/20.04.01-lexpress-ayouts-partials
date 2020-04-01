@@ -1,0 +1,20 @@
+<!-- players.hbs -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Players</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+    <div class="cards-container">
+        {{#each players}}
+        {{> playerCard }}
+        {{/each}}
+    </div>
+</body>
+
+</html>
